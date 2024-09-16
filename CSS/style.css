@@ -114,16 +114,18 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
-
+/* Style the flex container   */
 .delivered-meals {
   display: flex;
   align-items: center;
   gap: 1.6rem;
   margin-top: 8rem;
 }
+/* display it or not It's doesn't matter */
 .delivered-imgs {
   display: flex;
 }
+/* style the images customer**/
 .delivered-imgs img {
   height: 4.8rem;
   width: 4.8rem;
@@ -131,6 +133,7 @@ body {
   margin-right: -1.6rem;
   border: 3px solid #fae5d3;
 }
+
 .delivered-imgs img:last-child {
   margin-right: 0;
 }
