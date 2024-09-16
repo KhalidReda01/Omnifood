@@ -119,6 +119,7 @@ body {
 }
 .main-nav-link:link,
 .main-nav-link:visited {
+  display: inline-block;
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -128,6 +129,12 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
+}
+.nav-cta:link,
+.nav-cta:visited {
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  color: #fff;
 }
 /* HERO SECTION*/
 /*******************************************************/
