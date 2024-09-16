@@ -1,9 +1,16 @@
 /* 
 --- 01  TYPOGRAHPY SYSTEM
-
+ 
+font-weights 
+default 
+defualt 400
+vmedium 500
+semi bold 600
+bold 700
 Line heights:
 Default:1
-
+1.05
+1.6
 
 
 -FONT SIZE SYSTEM (px)
@@ -23,7 +30,7 @@ Default:1
 --- 05 SHADOWS
 
 --- 06 BORDER-RADIUS 
-
+  Default 9px
 --- 07 WHITESPACE
 
 -SPACING SYSTEM (px)
