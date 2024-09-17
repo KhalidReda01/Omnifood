@@ -146,3 +146,31 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-list:link,
+.main-nav-list:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-list:hover,
+.main-nav-list:active {
+  color: #cf711f;
+}
+.main-nav-list.nav-cta:link,
+.main-nav-list-nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #cf711f;
+}
