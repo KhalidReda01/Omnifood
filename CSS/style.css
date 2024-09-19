@@ -130,6 +130,13 @@
   justify-content: center;
   align-items: center;
 }
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 60%;
+  background-color: #fae5d3;
+}
 .step-img {
   width: 35%;
 }
