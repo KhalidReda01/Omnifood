@@ -56,6 +56,7 @@ html
 .hero {
   max-width: 130rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
@@ -185,18 +186,22 @@ html
 .section-how {
   background-color: orangered;
   padding: 9.6rem 0;
-
-  grid-template-columns: 1fr 1fr;
 }
 
-.section-how div {
+.section-how div div {
   padding: 100px;
   font-size: 50px;
+  background-color: #333;
 }
 
 .grid {
   display: grid;
   gap: 9.6rem;
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 }
 .grid--2-cols {
   grid-template-columns: 1fr 1fr;
@@ -205,21 +210,4 @@ html
 .grid--4-cols {
   grid-template-columns: repeat(4, 4fr);
 }
-.section-how div:nth-child(1) {
-  background-color: rgb(149, 175, 35);
-}
-.section-how div:nth-child(2) {
-  background-color: rgb(0, 38, 255);
-}
-.section-how div:nth-child(3) {
-  background-color: aqua;
-}
-.section-how div:nth-child(4) {
-  background-color: #ff0015;
-}
-.section-how div:nth-child(5) {
-  background-color: rgb(255, 0, 242);
-}
-.section-how div:nth-child(6) {
-  background-color: rgb(255, 94, 0);
-}
+/***********************************************************/
