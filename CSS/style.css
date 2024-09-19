@@ -125,7 +125,11 @@
   font-size: 1.8rem;
   line-height: 1.8;
 }
-
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .step-img {
-  width: 30%;
+  width: 35%;
 }
