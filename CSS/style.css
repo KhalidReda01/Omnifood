@@ -126,6 +126,7 @@
   line-height: 1.8;
 }
 .step-img-box {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,10 +135,16 @@
   content: "";
   display: block;
   width: 60%;
+  border-radius: 50%;
   /* height: 60%; */
   /* 60% of parents width*/
   padding-bottom: 60%;
   background-color: #fdf2e9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .step-img {
   width: 35%;
