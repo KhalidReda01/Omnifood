@@ -107,7 +107,9 @@
 /*******************************************************/
 /* Featured INSECTION*/
 /*******************************************************/
-
+.section-featured {
+  padding: 4.8rem 0;
+}
 .heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -117,6 +119,12 @@
   margin-bottom: 2.4rem;
 }
 
+.logos {
+  display: flex;
+}
+.logos img {
+  height: 3.2rem;
+}
 /*******************************************************/
 /* HERO SECTION*/
 /*******************************************************/
