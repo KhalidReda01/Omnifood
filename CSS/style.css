@@ -193,6 +193,15 @@
 .section-meals {
   padding: 9.6rem 0;
 }
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+}
 .meal-title {
   font-size: 2.4rem;
   color: #333;
@@ -207,6 +216,11 @@
 }
 .meal-attribute {
   font-size: 1.8rem;
+}
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4;
+  color: #e67e22;
 }
 .meal-img {
   width: 100%;
