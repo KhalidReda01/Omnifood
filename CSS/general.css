@@ -125,7 +125,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   /* put transition on original state*/
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 .btn--full:link,
 .btn--full:visited {
